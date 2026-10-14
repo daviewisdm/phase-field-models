@@ -1,0 +1,65 @@
+{
+  "base_config": "configs/base.toml",
+  "frozen": {
+    "steps": 1000000,
+    "print_every": 100,
+    "print_trajectory_every": 1000,
+    "N": 64,
+    "dim": 2,
+    "dx": 1.0,
+    "dt": 0.005,
+    "free_energy": "landau",
+    "integrator": "euler",
+    "model": "ch",
+    "use_autodiff": false,
+    "k": 1.0,
+    "M": 1.0,
+    "interface_scalar": 2.0,
+    "float_type": "float32",
+    "seed": 2026,
+    "verbose": false,
+    "landau": {
+      "epsilon": 0.9
+    }
+  },
+  "study": {
+    "rho_mean": -0.2,
+    "amp_rms": 0.01
+  },
+  "profiles": [
+    "A_stripe1",
+    "B_multimode",
+    "C_noise",
+    "D_gaussian",
+    "E_ring"
+  ],
+  "names": {
+    "A_stripe1": "A: single-mode stripe (N_peaks=1)",
+    "B_multimode": "B: 2D product of cosines (4x4)",
+    "C_noise": "C: uncorrelated Gaussian noise",
+    "D_gaussian": "D: off-center Gaussian bump",
+    "E_ring": "E: concentric rings (target)"
+  },
+  "gauss_center_ij": [
+    16,
+    42
+  ],
+  "configs": [
+    "configs/A_stripe1.toml",
+    "configs/B_multimode.toml",
+    "configs/C_noise.toml",
+    "configs/D_gaussian.toml",
+    "configs/E_ring.toml",
+    "configs/dtcheck_C_noise_halfdt.toml",
+    "configs/f64check_C_noise.toml"
+  ],
+  "wall_time_s": {
+    "A_stripe1": 358.3,
+    "B_multimode": 359.1,
+    "C_noise": 359.3,
+    "D_gaussian": 318.9,
+    "E_ring": 316.9,
+    "dtcheck_C_noise_halfdt": 36.5,
+    "f64check_C_noise": 204.3
+  }
+}

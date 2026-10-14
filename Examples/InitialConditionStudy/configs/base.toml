@@ -1,0 +1,27 @@
+# Base configuration shared by every profile. Per-profile TOMLs are generated from this file by run_study.py and
+# differ ONLY in `load_from` and `write_path`. The [study] table is consumed by run_study.py and stripped before
+# the config is handed to pfm.
+steps = 1000000
+print_every = 100
+print_trajectory_every = 1000
+N = 64
+dim = 2
+dx = 1.0
+dt = 0.005
+free_energy = "landau"
+integrator = "euler"
+model = "ch"
+use_autodiff = false
+k = 1.0
+M = 1.0
+interface_scalar = 2.0
+float_type = "float32"
+seed = 2026
+verbose = false
+
+[landau]
+epsilon = 0.9
+
+[study]
+rho_mean = -0.2
+amp_rms = 0.01

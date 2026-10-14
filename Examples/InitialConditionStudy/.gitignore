@@ -1,0 +1,7 @@
+# Raw simulation output is large (about 50 MB of text per profile) and fully regenerable with run_study.py.
+results/runs/
+results/dtcheck/
+results/f64check/
+results/roundtrip/
+results_smoke/
+configs/*.log

@@ -1,0 +1,198 @@
+{
+  "metrics": {
+    "A_stripe1": {
+      "profile": "A: single-mode stripe (N_peaks=1)",
+      "t_onset (RMS>=0.1)": 156.05311419125377,
+      "t_onset linear theory": 314.29471297123865,
+      "t_sat (RMS>=0.9 final)": 1287.1563594299016,
+      "t_F50 (half energy drop)": 1133.4718514801807,
+      "F_final": -0.13191777,
+      "RMS_final": 0.7909575735814793,
+      "min_final": -0.9483267068862915,
+      "max_final": 0.9374210238456726,
+      "L1_final": 29.420715715225178,
+      "k_peak_final": 0.09817477042468103,
+      "phase_frac_pos_final": 0.375,
+      "interface_len_final": 201.06192982974676,
+      "n_domains_pos_final": 2,
+      "n_domains_neg_final": 2,
+      "anisotropy_final": 1.0,
+      "coarsening_exponent": 0.3336345264655947,
+      "fit_t_range": [
+        315.0,
+        5000.0
+      ],
+      "mass_drift_final": 0.00015874998643994331,
+      "mass_drift_max_abs": 0.00020275113638490438,
+      "energy_dat_mass_range": [
+        -0.20001,
+        -0.1998
+      ],
+      "energy_monotone_violations": 8
+    },
+    "B_multimode": {
+      "profile": "B: 2D product of cosines (4x4)",
+      "t_onset (RMS>=0.1)": 44.65939870099924,
+      "t_onset linear theory": 44.22039271628684,
+      "t_sat (RMS>=0.9 final)": 77.51362020415601,
+      "t_F50 (half energy drop)": 58.1484392419175,
+      "F_final": -0.02282692,
+      "RMS_final": 0.3369839719950777,
+      "min_final": -0.6862584948539734,
+      "max_final": 0.5713256597518921,
+      "L1_final": 11.092346704641882,
+      "k_peak_final": 0.5890486225480862,
+      "phase_frac_pos_final": 0.2890625,
+      "interface_len_final": 703.7167544041137,
+      "n_domains_pos_final": 32,
+      "n_domains_neg_final": 1,
+      "anisotropy_final": 5.4397034104599586e-09,
+      "coarsening_exponent": -1.212208196925794e-05,
+      "fit_t_range": [
+        90.0,
+        5000.0
+      ],
+      "mass_drift_final": 2.07236735150218e-05,
+      "mass_drift_max_abs": 2.07236735150218e-05,
+      "energy_dat_mass_range": [
+        -0.20001,
+        -0.19998
+      ],
+      "energy_monotone_violations": 50
+    },
+    "C_noise": {
+      "profile": "C: uncorrelated Gaussian noise",
+      "t_onset (RMS>=0.1)": 63.129653481306406,
+      "t_onset linear theory": 62.939463390277616,
+      "t_sat (RMS>=0.9 final)": 594.7829406206546,
+      "t_F50 (half energy drop)": 311.91367973182054,
+      "F_final": -0.161341,
+      "RMS_final": 0.8252229042848646,
+      "min_final": -0.9293860197067261,
+      "max_final": 0.961512565612793,
+      "L1_final": 45.26589866189383,
+      "k_peak_final": 0.09817477042468103,
+      "phase_frac_pos_final": 0.373779296875,
+      "interface_len_final": 136.659280431156,
+      "n_domains_pos_final": 1,
+      "n_domains_neg_final": 1,
+      "anisotropy_final": -0.02302811667592588,
+      "coarsening_exponent": 0.283081653435428,
+      "fit_t_range": [
+        130.0,
+        2035.0
+      ],
+      "mass_drift_final": 0.00048821266172183186,
+      "mass_drift_max_abs": 0.0004920658886931051,
+      "energy_dat_mass_range": [
+        -0.2,
+        -0.19951
+      ],
+      "energy_monotone_violations": 0
+    },
+    "D_gaussian": {
+      "profile": "D: off-center Gaussian bump",
+      "t_onset (RMS>=0.1)": 39.999927665641295,
+      "t_onset linear theory": 43.003556781162764,
+      "t_sat (RMS>=0.9 final)": 649.4509821151161,
+      "t_F50 (half energy drop)": 352.08468229040835,
+      "F_final": -0.1634047,
+      "RMS_final": 0.8507294672151693,
+      "min_final": -0.9333463311195374,
+      "max_final": 0.9630056023597717,
+      "L1_final": 46.08461657384503,
+      "k_peak_final": 0.09817477042468103,
+      "phase_frac_pos_final": 0.385986328125,
+      "interface_len_final": 141.3716694115407,
+      "n_domains_pos_final": 1,
+      "n_domains_neg_final": 1,
+      "anisotropy_final": 7.4595837583064695e-06,
+      "coarsening_exponent": 0.35117536226672075,
+      "fit_t_range": [
+        80.0,
+        1120.0
+      ],
+      "mass_drift_final": 0.00029689806751775905,
+      "mass_drift_max_abs": 0.00029689806751775905,
+      "energy_dat_mass_range": [
+        -0.2,
+        -0.1997
+      ],
+      "energy_monotone_violations": 312
+    },
+    "E_ring": {
+      "profile": "E: concentric rings (target)",
+      "t_onset (RMS>=0.1)": 33.4702301593452,
+      "t_onset linear theory": 33.35120269431058,
+      "t_sat (RMS>=0.9 final)": 838.965487793765,
+      "t_F50 (half energy drop)": 368.7699598572703,
+      "F_final": -0.16339941,
+      "RMS_final": 0.8507696163502707,
+      "min_final": -0.9333481788635254,
+      "max_final": 0.9630038738250732,
+      "L1_final": 46.083478125127364,
+      "k_peak_final": 0.09817477042468103,
+      "phase_frac_pos_final": 0.385986328125,
+      "interface_len_final": 141.3716694115407,
+      "n_domains_pos_final": 1,
+      "n_domains_neg_final": 1,
+      "anisotropy_final": -3.5151801919802204e-07,
+      "coarsening_exponent": 0.2593315512021033,
+      "fit_t_range": [
+        70.0,
+        1205.0
+      ],
+      "mass_drift_final": 0.000495871758175781,
+      "mass_drift_max_abs": 0.000495871758175781,
+      "energy_dat_mass_range": [
+        -0.2,
+        -0.1995
+      ],
+      "energy_monotone_violations": 281
+    }
+  },
+  "checks": {
+    "frame0_equals_ic": true,
+    "gaussian_peak_frame0_ij": [
+      16,
+      42
+    ],
+    "gaussian_intended_ij": [
+      16,
+      42
+    ],
+    "gaussian_transposed_ij_differs": true,
+    "gaussian_onset_frame_t": 40.0,
+    "gaussian_onset_centroid_ij": [
+      16.0,
+      42.0
+    ],
+    "gaussian_onset_centroid_dist_to_seed": 0.0,
+    "dtcheck_onset_dt": 63.129653481306406,
+    "dtcheck_onset_halfdt": 63.0884252103224,
+    "dtcheck_max_rel_RMS_diff": 0.0028764943088095273,
+    "f64_values_not_float32_representable": true,
+    "f64_mass_drift_max_abs": 6.439293542825908e-15,
+    "f32_mass_drift_max_abs": 0.0004920658886931051,
+    "f64_onset": 63.145857498653804,
+    "f64_F_final": -0.16093903,
+    "f64_L1_final": 45.175389391788876,
+    "f64_n_domains_pos_final": 1,
+    "f64_phase_frac_pos_final": 0.373046875,
+    "f64_vs_f32_max_abs_diff_rho_t<=200": 0.0024948500173241628
+  },
+  "theory": {
+    "rho_mean": -0.2,
+    "f''(rho_mean)": -0.78,
+    "spinodal_|rho|": 0.5477225575051661,
+    "binodal_|rho|": 0.9486832980505138,
+    "q_max": 0.44158804331639234,
+    "lambda_max": 14.228612849188405,
+    "q_c": 0.6244997998398398,
+    "sigma_max": 0.07605,
+    "lever_rule_frac_pos": 0.39459074466105404,
+    "max_|rho|_observed": 0.9923295378684998,
+    "dt_stability_limit": 0.01384722893507156,
+    "dt_used": 0.005
+  }
+}
